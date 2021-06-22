@@ -1,5 +1,6 @@
 ## Json to Flask Code Generator
-Generate complete Insert &amp; Update for your Python Flask Application in a minute
+Generate complete Insert &amp; Update for your Python Flask Application in a minute.
+
 [![rohit-chouhan/json-to-flask-crud](https://i.ibb.co/qM8tmL3/iD9d3PPH.gif)](https://rohit-chouhan.github.io/json-to-flask-crud/)
 
 | Object  | Usage                                                                                | Example        |

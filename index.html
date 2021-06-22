@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Json to Flask Crud</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+</head>
+<body>
+	
+	
+<div class="jumbotron text-center" style="color:white;background: linear-gradient(90deg, rgba(53,45,199,1) 0%, rgba(0,212,255,1) 100%);">
+  <h1>JSON to Flask CRUD</h1>
+  <p>Auto Generate Pthon Flask CRUD Function code from JSON!</p> 
+  
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Json Code</h3>
+      <textarea class="form-control" id="json" style="width:100%;height:500px;" placeholder="JSON CODE HERE">
+	  </textarea>
+    </div>
+    <div class="col-sm-8">
+      <h3>Flask Code</h3>        
+      <textarea class="form-control" style="width:100%;height:500px;" id="code"></textarea>
+    </div>
+  </div>
+</div>
+<br>
+</body>
+  <script src="code.js"></script>
+  <script>
+	$("#json").keyup(function(){
+		getcode($("#json").val());
+	});
+  </script>
+</html>
